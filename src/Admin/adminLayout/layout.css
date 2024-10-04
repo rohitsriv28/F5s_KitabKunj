@@ -1,0 +1,12 @@
+.adminLayout{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.sidebar{
+    flex: 1;
+}
+
+.Admin-childrenContet{
+    flex: 4;
+}

@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #21094E;
+}
+.footerdetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+.footerdetail ol{
+    list-style: none;
+}
+
+.footerdetail ol a{
+    color: white;
+}
+
+.footerLogo{
+    background-image: url(./kitabKunj.png);
+    width: 300px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.firstFooter,.secondFooter,.thirdFooter,.fourthFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstFooter .icons{
+    display: flex;
+    gap: 10px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    border-top: 1px solid #b4aeaebe; 
+    padding-top: 10px; 
+}

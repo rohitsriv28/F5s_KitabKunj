@@ -1,0 +1,82 @@
+/* body{
+    background: rgb(82, 80, 80);
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.heightOp{
+  min-height: 100vh;
+}
+
+.sidebar{
+  min-height: 100vh;
+}
+
+a:visited {
+  text-decoration: none;
+  color: initial;
+}
+
+.opLoader {
+  background: #989898;
+  height: 238px;
+  width: 313px;
+  position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for table header */
+thead {
+  background-color: #f2f2f2;
+}
+
+/* Styles for table body */
+tbody {
+  /* Add your styles for tbody here */
+}
+
+/* Styles for table cells */
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}

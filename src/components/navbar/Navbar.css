@@ -1,0 +1,141 @@
+nav {
+  background-color: #21094e;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 3rem;
+}
+
+.logo a {
+  height: 100px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.donor-card{
+  max-width: 350px;
+}
+/* .profile{
+
+} */
+
+/* .logo img {
+  max-height: 150px; 
+  max-width: 200px;
+  object-fit: contain; 
+} */
+
+.nav-img {
+  background-image: url(./kitabKunj.png);
+  width: 300px;
+  height: 70px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* .nav-links a:hover {
+  color: #ecf0f1;
+} */
+
+.profile {
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  background: #9868D7;
+  padding:  5px;
+  border-radius: 5px;
+}
+
+.profile span {
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #3498db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.profile:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #2980b9;
+}
+
+.dropdown-content button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content button:hover {
+  background-color: #2980b9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #3498db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.profile:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  z-index: 1;
+}

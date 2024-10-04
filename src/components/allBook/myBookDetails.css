@@ -1,0 +1,19 @@
+.book-details-containers {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 16px;
+  }
+  
+  .book-image img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .book-info {
+    margin-left: 16px;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  

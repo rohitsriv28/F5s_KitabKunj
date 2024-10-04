@@ -1,0 +1,88 @@
+.book-card-link {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.book-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  height: 250px;
+  background-color: #f9f9f9;
+  transition: 0.1s ease-in-out;
+}
+
+.book-card:hover{
+  scale: 103%;
+}
+.book-image {
+  flex: 1.5;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.book-details {
+  flex: 1.5;
+  text-align: left;
+}
+
+.book-details .detail{
+  font-size: 15px;
+  height: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.book-details h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.book-details p {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+
+.price{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.price span:first-child{
+  font-size: 28px;
+}
+
+.price span:nth-child(2){
+  text-decoration: line-through;
+}
+
+.price span{
+margin-top: 0;
+}
+
+.spam{
+  display: flex;
+  align-items: end;
+}
+
+.spam p{
+  font-size: 10px;
+}
+ .details-btn{
+  margin-top: -5px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color:#511281;
+}

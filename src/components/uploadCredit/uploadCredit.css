@@ -1,0 +1,75 @@
+.payment-form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  height: 800px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.left-section h2 {
+  color: #333;
+}
+
+.left-section p {
+  color: #555;
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.payment-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.payment-form h2 {
+  color: #333;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-form button {
+  background-color: #4c6faf;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-form button:hover {
+  background-color: #5d45a0;
+}
+
+.payment-form img {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

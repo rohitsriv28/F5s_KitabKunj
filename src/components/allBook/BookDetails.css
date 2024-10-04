@@ -1,0 +1,92 @@
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.back a{
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+
+.book-name {
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+}
+
+.book-details-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.detailsb{
+  flex: 1;
+}
+.banner{
+  flex: 1;
+}
+
+.chat-section {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.dialog {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.dialog form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog label {
+  margin-bottom: 10px;
+}
+
+.dialog textarea {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; /* Allow vertical resizing */
+  margin-bottom: 10px;
+}
+
+.dialog button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dialog button:hover {
+  background-color: #0056b3;
+}
+
+.dialog textarea{
+  resize: none;
+}

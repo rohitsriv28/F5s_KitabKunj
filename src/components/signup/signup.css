@@ -1,0 +1,103 @@
+.signup{
+    display: flex;
+    background-color: #fff;
+    border: 4px;
+    height: calc(100vh - 3rem);
+}
+.signup-welcome {
+    display: flex;
+    flex: 1.2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #511281;
+    color: #fff; 
+    padding: 20px;
+  }
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .signup-welcome h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-welcome p {
+    margin-bottom: 10px;
+  }
+  
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message-pw {
+    color: red;
+  }
+  
+  .form-group-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .form-group-half {
+    width: 50%;
+    padding-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #891652;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #891652;
+  }
+  
+  span {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  span a {
+    color: #891652;
+    text-decoration: none;
+  }
+  
+  span a:hover {
+    text-decoration: underline;
+  }
+  
